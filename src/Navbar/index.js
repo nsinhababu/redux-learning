@@ -5,7 +5,7 @@ const NavBar = () => {
   const state = useSelector((state) => {
     console.log(state.counter);
   });
-  return <nav></nav>;
+  return <nav>Redux APP</nav>;
 };
 
 export default NavBar;

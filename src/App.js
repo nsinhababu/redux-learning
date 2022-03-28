@@ -1,6 +1,7 @@
 import './App.css';
 // Import components
 import NavBar from './Navbar';
+import CounterApp from './CounterApp';
 // Import Redux
 import { Provider } from 'react-redux';
 // Import store
@@ -11,6 +12,7 @@ function App() {
     <Provider store={store}>
       <div>
         <NavBar />
+        <CounterApp />
       </div>
     </Provider>
   );
